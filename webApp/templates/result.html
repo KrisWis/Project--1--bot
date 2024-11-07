@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Результат игры</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    "
+  >
+    <h1 style="color: #4caf50">Результат игры</h1>
+
+    <p style="font-size: 1.2rem; margin: 10px 0">
+      Вы выбрали: <strong>{{ user_choice }}</strong>
+    </p>
+
+    <p style="font-size: 1.2rem; margin: 10px 0">
+      Бот выбрал: <strong>{{ bot_choice }}</strong>
+    </p>
+
+    <p style="font-size: 1.5rem; margin: 20px 0; font-weight: bold">
+      Результат: <strong>{{ result }}</strong>
+    </p>
+
+    <a href="/" style="color: #4caf50; text-decoration: none; font-size: 1.2rem"
+      >Играть снова</a
+    >
+  </body>
+</html>
